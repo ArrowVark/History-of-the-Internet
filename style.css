@@ -56,6 +56,8 @@ body {
     font-size: 1.2rem;
     padding: 0px;
     margin: 0px;
+    border: solid 0.01rem transparent;
+
 }
 .box:hover {
     z-index: 1;
