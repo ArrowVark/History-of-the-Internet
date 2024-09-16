@@ -77,6 +77,11 @@ body {
     .boxText {
         transform: translateY(2rem);
     }
+    .image {
+        transform: translateX(50vw);
+        opacity: 1;
+        transition-duration: 1s;
+    }
 }
 .boxHeader {
     font-size: 1.6rem;
@@ -113,6 +118,12 @@ body {
     transition-delay: .14s;
 
 }
+.image {
+    position: absolute;
+    translate: -100vw -20vh;
+    transition-duration: 1s;
+    opacity: 0;
+}
 .arpnet {
     color: white;
     position: relative;
@@ -138,3 +149,4 @@ body {
     height: 9rem;
  }
 }
+
