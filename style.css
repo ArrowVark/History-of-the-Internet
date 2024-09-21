@@ -41,7 +41,7 @@ body {
 .line {
     z-index: -100;
     border-left: .2rem solid white;
-    height: 90rem;
+    height: 205rem;
     margin-left: calc(50% + 0.1rem);
     margin-top: 10rem;
     width: 0px;
